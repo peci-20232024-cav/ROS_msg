@@ -17,7 +17,7 @@ from rclpy.node import Node
 from rclpy.qos import QoSProfile, QoSDurabilityPolicy
 
 from std_msgs.msg import String
-from autoware_auto_planning_msgs.msg import LateralOffset
+from tier4_planning_msgs.msg import LateralOffset
 
 test_profile = QoSProfile(depth=10, durability=QoSDurabilityPolicy.TRANSIENT_LOCAL)
 
@@ -34,7 +34,7 @@ class MinimalPublisher(Node):
     def timer_callback(self):
 
         msg = LateralOffset()
-        msg.lateral_offset = 0.0 
+        msg.lateral_offset = 2.0 
         self.publisher_.publish(msg)
         self.get_logger().info('Publishing: "%s"' % msg.lateral_offset)
         self.i += 1

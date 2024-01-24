@@ -7,7 +7,7 @@
   <maintainer email="aaokilourenco@ua.pt">aoki</maintainer>
   <license>Apache-2.0</license>
 
-  <exec_depend>autoware_auto_planning_msgs</exec_depend>
+  <exec_depend>tier4_planning_msgs</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

@@ -17,7 +17,7 @@ from rclpy.node import Node
 
 from std_msgs.msg import String
 
-from autoware_auto_planning_msgs.msg import LateralOffset
+from tier4_planning_msgs.msg import LateralOffset
 
 class MinimalSubscriber(Node):
 
