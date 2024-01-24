@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.001388] (planning) JobQueued: {'identifier': 'planning', 'dependencies': OrderedDict()}
+[0.001731] (ros_test) JobQueued: {'identifier': 'ros_test', 'dependencies': OrderedDict()}
+[0.001794] (planning) JobStarted: {'identifier': 'planning'}
+[0.099053] (-) TimerEvent: {}
+[0.199638] (-) TimerEvent: {}
+[0.300413] (-) TimerEvent: {}
+[0.367786] (ros_test) JobStarted: {'identifier': 'ros_test'}
+[0.400572] (-) TimerEvent: {}
+[0.501773] (-) TimerEvent: {}
+[0.603428] (-) TimerEvent: {}
+[0.703881] (-) TimerEvent: {}
+[0.804602] (-) TimerEvent: {}
+[0.905167] (-) TimerEvent: {}
+[1.005777] (-) TimerEvent: {}
+[1.106193] (-) TimerEvent: {}
+[1.206685] (-) TimerEvent: {}
+[1.307115] (-) TimerEvent: {}
+[1.407652] (-) TimerEvent: {}
+[1.508916] (-) TimerEvent: {}
+[1.609489] (-) TimerEvent: {}
+[1.710119] (-) TimerEvent: {}
+[1.810617] (-) TimerEvent: {}
+[1.911040] (-) TimerEvent: {}
+[2.011531] (-) TimerEvent: {}
+[2.112361] (-) TimerEvent: {}
+[2.212747] (-) TimerEvent: {}
+[2.313774] (-) TimerEvent: {}
+[2.417804] (-) TimerEvent: {}
+[2.518302] (-) TimerEvent: {}
+[2.618828] (-) TimerEvent: {}
+[2.719367] (-) TimerEvent: {}
+[2.819891] (-) TimerEvent: {}
+[2.921057] (-) TimerEvent: {}
+[3.021551] (-) TimerEvent: {}
+[3.122060] (-) TimerEvent: {}
+[3.223328] (-) TimerEvent: {}
+[3.324049] (-) TimerEvent: {}
+[3.424606] (-) TimerEvent: {}
+[3.484340] (planning) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/planning', 'build', '--build-base', '/home/aoki/Desktop/ROS_msg/build/planning/build', 'install', '--record', '/home/aoki/Desktop/ROS_msg/build/planning/install.log', '--single-version-externally-managed'], 'cwd': '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/planning', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aoki', 'LC_TIME': 'pt_PT.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/aoki', 'OLDPWD': '/home/aoki/Desktop/ROS_msg/ROS_TEST', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_PT.UTF-8', 'LC_CTYPE': 'pt_PT.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2089', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9d23ca06ac0f2d1abb45425965b0e463', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/aoki/Desktop/ROS_msg/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'aoki', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aoki', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/aoki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aoki/.local/bin:/home/aoki/.local/bin', 'SESSION_MANAGER': 'local/aoki-ROG-Zephyrus-G14-GA401IV-GA401IV:@/tmp/.ICE-unix/2089,unix/aoki-ROG-Zephyrus-G14-GA401IV-GA401IV:/tmp/.ICE-unix/2089', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_PT.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c46e23b9_e911_4ca9_8128_07cd7206a8e5', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_PT.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.97', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/aoki/Desktop/ROS_msg/install/semaforo:/home/aoki/Desktop/ROS_msg/install/ros_test:/home/aoki/Desktop/ROS_msg/install/planning:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_PT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_PT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'pt_PT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aoki/Desktop/ROS_msg/build/planning', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9d23ca06ac0f2d1abb45425965b0e463', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aoki/Desktop/ROS_msg/build/planning/prefix_override:/home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages:/home/aoki/Desktop/ROS_msg/install/semaforo/lib/python3.10/site-packages:/home/aoki/Desktop/ROS_msg/install/ros_test/lib/python3.10/site-packages:/home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_PT.UTF-8', 'LC_PAPER': 'pt_PT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.527958] (ros_test) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/ros_test', 'build', '--build-base', '/home/aoki/Desktop/ROS_msg/build/ros_test/build', 'install', '--record', '/home/aoki/Desktop/ROS_msg/build/ros_test/install.log', '--single-version-externally-managed'], 'cwd': '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/ros_test', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aoki', 'LC_TIME': 'pt_PT.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/aoki', 'OLDPWD': '/home/aoki/Desktop/ROS_msg/ROS_TEST', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_PT.UTF-8', 'LC_CTYPE': 'pt_PT.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2089', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9d23ca06ac0f2d1abb45425965b0e463', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/aoki/Desktop/ROS_msg/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'aoki', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aoki', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/aoki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/aoki/.local/bin:/home/aoki/.local/bin', 'SESSION_MANAGER': 'local/aoki-ROG-Zephyrus-G14-GA401IV-GA401IV:@/tmp/.ICE-unix/2089,unix/aoki-ROG-Zephyrus-G14-GA401IV-GA401IV:/tmp/.ICE-unix/2089', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_PT.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c46e23b9_e911_4ca9_8128_07cd7206a8e5', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_PT.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.97', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/aoki/Desktop/ROS_msg/install/semaforo:/home/aoki/Desktop/ROS_msg/install/ros_test:/home/aoki/Desktop/ROS_msg/install/planning:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_PT.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_PT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'pt_PT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aoki/Desktop/ROS_msg/build/ros_test', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9d23ca06ac0f2d1abb45425965b0e463', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aoki/Desktop/ROS_msg/build/ros_test/prefix_override:/home/aoki/Desktop/ROS_msg/install/ros_test/lib/python3.10/site-packages:/home/aoki/Desktop/ROS_msg/install/semaforo/lib/python3.10/site-packages:/home/aoki/Desktop/ROS_msg/install/ros_test/lib/python3.10/site-packages:/home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_PT.UTF-8', 'LC_PAPER': 'pt_PT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.532224] (-) TimerEvent: {}
+[3.632867] (-) TimerEvent: {}
+[3.733393] (-) TimerEvent: {}
+[3.834204] (-) TimerEvent: {}
+[3.936183] (-) TimerEvent: {}
+[4.036666] (-) TimerEvent: {}
+[4.137224] (-) TimerEvent: {}
+[4.161214] (planning) StdoutLine: {'line': b'running egg_info\n'}
+[4.162639] (planning) StdoutLine: {'line': b'writing ../../../build/planning/planning.egg-info/PKG-INFO\n'}
+[4.175028] (planning) StdoutLine: {'line': b'writing dependency_links to ../../../build/planning/planning.egg-info/dependency_links.txt\n'}
+[4.185259] (ros_test) StdoutLine: {'line': b'running egg_info\n'}
+[4.186932] (planning) StdoutLine: {'line': b'writing entry points to ../../../build/planning/planning.egg-info/entry_points.txt\n'}
+[4.187228] (ros_test) StdoutLine: {'line': b'writing ../../../build/ros_test/ros_test.egg-info/PKG-INFO\n'}
+[4.187487] (ros_test) StdoutLine: {'line': b'writing dependency_links to ../../../build/ros_test/ros_test.egg-info/dependency_links.txt\n'}
+[4.187698] (ros_test) StdoutLine: {'line': b'writing entry points to ../../../build/ros_test/ros_test.egg-info/entry_points.txt\n'}
+[4.187866] (ros_test) StdoutLine: {'line': b'writing requirements to ../../../build/ros_test/ros_test.egg-info/requires.txt\n'}
+[4.188060] (ros_test) StdoutLine: {'line': b'writing top-level names to ../../../build/ros_test/ros_test.egg-info/top_level.txt\n'}
+[4.191478] (ros_test) StdoutLine: {'line': b"reading manifest file '../../../build/ros_test/ros_test.egg-info/SOURCES.txt'\n"}
+[4.191823] (ros_test) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.192906] (ros_test) StdoutLine: {'line': b"writing manifest file '../../../build/ros_test/ros_test.egg-info/SOURCES.txt'\n"}
+[4.193145] (ros_test) StdoutLine: {'line': b'running build\n'}
+[4.193272] (ros_test) StdoutLine: {'line': b'running build_py\n'}
+[4.194052] (ros_test) StdoutLine: {'line': b'running install\n'}
+[4.194330] (ros_test) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.194516] (ros_test) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.194852] (ros_test) StdoutLine: {'line': b'running install_lib\n'}
+[4.197610] (ros_test) StdoutLine: {'line': b'running install_data\n'}
+[4.198236] (planning) StdoutLine: {'line': b'writing requirements to ../../../build/planning/planning.egg-info/requires.txt\n'}
+[4.199035] (ros_test) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.202348] (ros_test) StdoutLine: {'line': b"removing '/home/aoki/Desktop/ROS_msg/install/ros_test/lib/python3.10/site-packages/ros_test-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.203080] (ros_test) StdoutLine: {'line': b'Copying ../../../build/ros_test/ros_test.egg-info to /home/aoki/Desktop/ROS_msg/install/ros_test/lib/python3.10/site-packages/ros_test-0.0.0-py3.10.egg-info\n'}
+[4.204929] (ros_test) StdoutLine: {'line': b'running install_scripts\n'}
+[4.209839] (planning) StdoutLine: {'line': b'writing top-level names to ../../../build/planning/planning.egg-info/top_level.txt\n'}
+[4.229282] (planning) StdoutLine: {'line': b"reading manifest file '../../../build/planning/planning.egg-info/SOURCES.txt'\n"}
+[4.229893] (planning) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.232164] (planning) StdoutLine: {'line': b"writing manifest file '../../../build/planning/planning.egg-info/SOURCES.txt'\n"}
+[4.237376] (-) TimerEvent: {}
+[4.244555] (planning) StdoutLine: {'line': b'running build\n'}
+[4.245215] (planning) StdoutLine: {'line': b'running build_py\n'}
+[4.246296] (planning) StdoutLine: {'line': b'running install\n'}
+[4.247051] (planning) StdoutLine: {'line': b'running install_lib\n'}
+[4.247461] (planning) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.247717] (planning) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.250394] (planning) StdoutLine: {'line': b'running install_data\n'}
+[4.251847] (planning) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.256232] (planning) StdoutLine: {'line': b"removing '/home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages/planning-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.257611] (planning) StdoutLine: {'line': b'Copying ../../../build/planning/planning.egg-info to /home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages/planning-0.0.0-py3.10.egg-info\n'}
+[4.259475] (planning) StdoutLine: {'line': b'running install_scripts\n'}
+[4.263147] (ros_test) StdoutLine: {'line': b'Installing listener script to /home/aoki/Desktop/ROS_msg/install/ros_test/lib/ros_test\n'}
+[4.263664] (ros_test) StdoutLine: {'line': b'Installing talker script to /home/aoki/Desktop/ROS_msg/install/ros_test/lib/ros_test\n'}
+[4.265208] (ros_test) StdoutLine: {'line': b"writing list of installed files to '/home/aoki/Desktop/ROS_msg/build/ros_test/install.log'\n"}
+[4.314737] (planning) StdoutLine: {'line': b'Installing listener script to /home/aoki/Desktop/ROS_msg/install/planning/lib/planning\n'}
+[4.327764] (planning) StdoutLine: {'line': b'Installing talker script to /home/aoki/Desktop/ROS_msg/install/planning/lib/planning\n'}
+[4.337582] (-) TimerEvent: {}
+[4.347365] (ros_test) CommandEnded: {'returncode': 0}
+[4.348465] (planning) StdoutLine: {'line': b"writing list of installed files to '/home/aoki/Desktop/ROS_msg/build/planning/install.log'\n"}
+[4.437762] (-) TimerEvent: {}
+[4.539310] (-) TimerEvent: {}
+[4.617097] (ros_test) JobEnded: {'identifier': 'ros_test', 'rc': 0}
+[4.635499] (planning) CommandEnded: {'returncode': 0}
+[4.639617] (-) TimerEvent: {}
+[4.740440] (-) TimerEvent: {}
+[4.840965] (-) TimerEvent: {}
+[4.900566] (planning) JobEnded: {'identifier': 'planning', 'rc': 0}
+[4.902348] (-) EventReactorShutdown: {}

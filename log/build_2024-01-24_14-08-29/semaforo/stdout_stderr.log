@@ -1,0 +1,42 @@
+running egg_info
+creating ../../../build/semaforo/semaforo.egg-info
+writing ../../../build/semaforo/semaforo.egg-info/PKG-INFO
+writing dependency_links to ../../../build/semaforo/semaforo.egg-info/dependency_links.txt
+writing entry points to ../../../build/semaforo/semaforo.egg-info/entry_points.txt
+writing requirements to ../../../build/semaforo/semaforo.egg-info/requires.txt
+writing top-level names to ../../../build/semaforo/semaforo.egg-info/top_level.txt
+writing manifest file '../../../build/semaforo/semaforo.egg-info/SOURCES.txt'
+reading manifest file '../../../build/semaforo/semaforo.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/semaforo/semaforo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aoki/Desktop/ROS_msg/build/semaforo/build
+creating /home/aoki/Desktop/ROS_msg/build/semaforo/build/lib
+creating /home/aoki/Desktop/ROS_msg/build/semaforo/build/lib/semaforo
+copying semaforo/publisher_member_function.py -> /home/aoki/Desktop/ROS_msg/build/semaforo/build/lib/semaforo
+copying semaforo/__init__.py -> /home/aoki/Desktop/ROS_msg/build/semaforo/build/lib/semaforo
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install
+running install_lib
+creating /home/aoki/Desktop/ROS_msg/install/semaforo/lib/python3.10/site-packages/semaforo
+copying /home/aoki/Desktop/ROS_msg/build/semaforo/build/lib/semaforo/publisher_member_function.py -> /home/aoki/Desktop/ROS_msg/install/semaforo/lib/python3.10/site-packages/semaforo
+copying /home/aoki/Desktop/ROS_msg/build/semaforo/build/lib/semaforo/__init__.py -> /home/aoki/Desktop/ROS_msg/install/semaforo/lib/python3.10/site-packages/semaforo
+byte-compiling /home/aoki/Desktop/ROS_msg/install/semaforo/lib/python3.10/site-packages/semaforo/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+  File "/home/aoki/Desktop/ROS_msg/install/semaforo/lib/python3.10/site-packages/semaforo/publisher_member_function.py", line 38
+    msg.
+        ^
+SyntaxError: invalid syntax
+
+byte-compiling /home/aoki/Desktop/ROS_msg/install/semaforo/lib/python3.10/site-packages/semaforo/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/aoki/Desktop/ROS_msg/install/semaforo/share/ament_index
+creating /home/aoki/Desktop/ROS_msg/install/semaforo/share/ament_index/resource_index
+creating /home/aoki/Desktop/ROS_msg/install/semaforo/share/ament_index/resource_index/packages
+copying resource/semaforo -> /home/aoki/Desktop/ROS_msg/install/semaforo/share/ament_index/resource_index/packages
+copying package.xml -> /home/aoki/Desktop/ROS_msg/install/semaforo/share/semaforo
+running install_egg_info
+Copying ../../../build/semaforo/semaforo.egg-info to /home/aoki/Desktop/ROS_msg/install/semaforo/lib/python3.10/site-packages/semaforo-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/aoki/Desktop/ROS_msg/build/semaforo/install.log'

@@ -1,0 +1,4 @@
+[console_scripts]
+listener = ros_test.subscriber_member_function:main
+talker = ros_test.publisher_member_function:main
+

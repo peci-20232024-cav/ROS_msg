@@ -1,0 +1,28 @@
+[4.460s] Invoking command in '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/planning': PYTHONPATH=/home/aoki/Desktop/ROS_msg/build/planning/prefix_override:/home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/planning build --build-base /home/aoki/Desktop/ROS_msg/build/planning/build install --record /home/aoki/Desktop/ROS_msg/build/planning/install.log --single-version-externally-managed
+[5.299s] running egg_info
+[5.300s] writing ../../../build/planning/planning.egg-info/PKG-INFO
+[5.311s] writing dependency_links to ../../../build/planning/planning.egg-info/dependency_links.txt
+[5.321s] writing entry points to ../../../build/planning/planning.egg-info/entry_points.txt
+[5.333s] writing requirements to ../../../build/planning/planning.egg-info/requires.txt
+[5.346s] writing top-level names to ../../../build/planning/planning.egg-info/top_level.txt
+[5.364s] reading manifest file '../../../build/planning/planning.egg-info/SOURCES.txt'
+[5.364s] adding license file 'LICENSE'
+[5.366s] writing manifest file '../../../build/planning/planning.egg-info/SOURCES.txt'
+[5.381s] running build
+[5.381s] running build_py
+[5.381s] copying planning/publisher_member_function.py -> /home/aoki/Desktop/ROS_msg/build/planning/build/lib/planning
+[5.382s] running install
+[5.382s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.382s]   warnings.warn(
+[5.383s] running install_lib
+[5.385s] copying /home/aoki/Desktop/ROS_msg/build/planning/build/lib/planning/publisher_member_function.py -> /home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages/planning
+[5.387s] byte-compiling /home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages/planning/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[5.402s] running install_data
+[5.404s] running install_egg_info
+[5.408s] removing '/home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages/planning-0.0.0-py3.10.egg-info' (and everything under it)
+[5.408s] Copying ../../../build/planning/planning.egg-info to /home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages/planning-0.0.0-py3.10.egg-info
+[5.410s] running install_scripts
+[5.475s] Installing listener script to /home/aoki/Desktop/ROS_msg/install/planning/lib/planning
+[5.488s] Installing talker script to /home/aoki/Desktop/ROS_msg/install/planning/lib/planning
+[5.502s] writing list of installed files to '/home/aoki/Desktop/ROS_msg/build/planning/install.log'
+[5.607s] Invoked command in '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/planning' returned '0': PYTHONPATH=/home/aoki/Desktop/ROS_msg/build/planning/prefix_override:/home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/planning build --build-base /home/aoki/Desktop/ROS_msg/build/planning/build install --record /home/aoki/Desktop/ROS_msg/build/planning/install.log --single-version-externally-managed

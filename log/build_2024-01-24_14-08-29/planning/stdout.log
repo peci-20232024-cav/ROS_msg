@@ -1,0 +1,38 @@
+running egg_info
+creating ../../../build/planning/planning.egg-info
+writing ../../../build/planning/planning.egg-info/PKG-INFO
+writing dependency_links to ../../../build/planning/planning.egg-info/dependency_links.txt
+writing entry points to ../../../build/planning/planning.egg-info/entry_points.txt
+writing requirements to ../../../build/planning/planning.egg-info/requires.txt
+writing top-level names to ../../../build/planning/planning.egg-info/top_level.txt
+writing manifest file '../../../build/planning/planning.egg-info/SOURCES.txt'
+reading manifest file '../../../build/planning/planning.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/planning/planning.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aoki/Desktop/ROS_msg/build/planning/build
+creating /home/aoki/Desktop/ROS_msg/build/planning/build/lib
+creating /home/aoki/Desktop/ROS_msg/build/planning/build/lib/planning
+copying planning/publisher_member_function.py -> /home/aoki/Desktop/ROS_msg/build/planning/build/lib/planning
+copying planning/__init__.py -> /home/aoki/Desktop/ROS_msg/build/planning/build/lib/planning
+copying planning/subscriber_member_function.py -> /home/aoki/Desktop/ROS_msg/build/planning/build/lib/planning
+running install
+running install_lib
+creating /home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages/planning
+copying /home/aoki/Desktop/ROS_msg/build/planning/build/lib/planning/publisher_member_function.py -> /home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages/planning
+copying /home/aoki/Desktop/ROS_msg/build/planning/build/lib/planning/__init__.py -> /home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages/planning
+copying /home/aoki/Desktop/ROS_msg/build/planning/build/lib/planning/subscriber_member_function.py -> /home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages/planning
+byte-compiling /home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages/planning/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+byte-compiling /home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages/planning/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages/planning/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+running install_data
+creating /home/aoki/Desktop/ROS_msg/install/planning/share/ament_index
+creating /home/aoki/Desktop/ROS_msg/install/planning/share/ament_index/resource_index
+creating /home/aoki/Desktop/ROS_msg/install/planning/share/ament_index/resource_index/packages
+copying resource/planning -> /home/aoki/Desktop/ROS_msg/install/planning/share/ament_index/resource_index/packages
+copying package.xml -> /home/aoki/Desktop/ROS_msg/install/planning/share/planning
+running install_egg_info
+Copying ../../../build/planning/planning.egg-info to /home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages/planning-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/aoki/Desktop/ROS_msg/build/planning/install.log'

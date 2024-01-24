@@ -1,0 +1,25 @@
+[4.130s] Invoking command in '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/ros_test': PYTHONPATH=/home/aoki/Desktop/ROS_msg/build/ros_test/prefix_override:/home/aoki/Desktop/ROS_msg/install/ros_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros_test build --build-base /home/aoki/Desktop/ROS_msg/build/ros_test/build install --record /home/aoki/Desktop/ROS_msg/build/ros_test/install.log --single-version-externally-managed
+[4.971s] running egg_info
+[4.973s] writing ../../../build/ros_test/ros_test.egg-info/PKG-INFO
+[4.986s] writing dependency_links to ../../../build/ros_test/ros_test.egg-info/dependency_links.txt
+[5.003s] writing entry points to ../../../build/ros_test/ros_test.egg-info/entry_points.txt
+[5.013s] writing requirements to ../../../build/ros_test/ros_test.egg-info/requires.txt
+[5.026s] writing top-level names to ../../../build/ros_test/ros_test.egg-info/top_level.txt
+[5.043s] reading manifest file '../../../build/ros_test/ros_test.egg-info/SOURCES.txt'
+[5.043s] adding license file 'LICENSE'
+[5.045s] writing manifest file '../../../build/ros_test/ros_test.egg-info/SOURCES.txt'
+[5.059s] running build
+[5.059s] running build_py
+[5.060s] running install
+[5.061s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.061s]   warnings.warn(
+[5.062s] running install_lib
+[5.068s] running install_data
+[5.070s] running install_egg_info
+[5.076s] removing '/home/aoki/Desktop/ROS_msg/install/ros_test/lib/python3.10/site-packages/ros_test-0.0.0-py3.10.egg-info' (and everything under it)
+[5.077s] Copying ../../../build/ros_test/ros_test.egg-info to /home/aoki/Desktop/ROS_msg/install/ros_test/lib/python3.10/site-packages/ros_test-0.0.0-py3.10.egg-info
+[5.080s] running install_scripts
+[5.152s] Installing listener script to /home/aoki/Desktop/ROS_msg/install/ros_test/lib/ros_test
+[5.163s] Installing talker script to /home/aoki/Desktop/ROS_msg/install/ros_test/lib/ros_test
+[5.175s] writing list of installed files to '/home/aoki/Desktop/ROS_msg/build/ros_test/install.log'
+[5.490s] Invoked command in '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/ros_test' returned '0': PYTHONPATH=/home/aoki/Desktop/ROS_msg/build/ros_test/prefix_override:/home/aoki/Desktop/ROS_msg/install/ros_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros_test build --build-base /home/aoki/Desktop/ROS_msg/build/ros_test/build install --record /home/aoki/Desktop/ROS_msg/build/ros_test/install.log --single-version-externally-managed

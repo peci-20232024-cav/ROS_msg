@@ -1,0 +1,23 @@
+[3.134s] Invoking command in '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/planning': PYTHONPATH=/home/aoki/Desktop/ROS_msg/build/planning/prefix_override:/home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/planning build --build-base /home/aoki/Desktop/ROS_msg/build/planning/build install --record /home/aoki/Desktop/ROS_msg/build/planning/install.log --single-version-externally-managed
+[3.787s] running egg_info
+[3.790s] writing ../../../build/planning/planning.egg-info/PKG-INFO
+[3.791s] writing dependency_links to ../../../build/planning/planning.egg-info/dependency_links.txt
+[3.791s] writing entry points to ../../../build/planning/planning.egg-info/entry_points.txt
+[3.792s] writing requirements to ../../../build/planning/planning.egg-info/requires.txt
+[3.792s] writing top-level names to ../../../build/planning/planning.egg-info/top_level.txt
+[3.798s] reading manifest file '../../../build/planning/planning.egg-info/SOURCES.txt'
+[3.798s] adding license file 'LICENSE'
+[3.801s] writing manifest file '../../../build/planning/planning.egg-info/SOURCES.txt'
+[3.802s] running build
+[3.802s] running build_py
+[3.803s] running install
+[3.803s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.807s]   warnings.warn(
+[3.807s] running install_lib
+[3.808s] running install_data
+[3.809s] running install_egg_info
+[3.814s] removing '/home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages/planning-0.0.0-py3.10.egg-info' (and everything under it)
+[3.815s] Copying ../../../build/planning/planning.egg-info to /home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages/planning-0.0.0-py3.10.egg-info
+[3.818s] running install_scripts
+[3.868s] writing list of installed files to '/home/aoki/Desktop/ROS_msg/build/planning/install.log'
+[3.960s] Invoked command in '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/planning' returned '0': PYTHONPATH=/home/aoki/Desktop/ROS_msg/build/planning/prefix_override:/home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/planning build --build-base /home/aoki/Desktop/ROS_msg/build/planning/build install --record /home/aoki/Desktop/ROS_msg/build/planning/install.log --single-version-externally-managed

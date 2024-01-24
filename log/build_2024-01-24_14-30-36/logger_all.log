@@ -1,0 +1,201 @@
+[5.362s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[5.362s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f73fb500d60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f73fb6612d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f73fb6612d0>>, mixin_verb=('build',))
+[5.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.566s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aoki/Desktop/ROS_msg'
+[5.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.568s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST) by extensions ['ignore', 'ignore_ament_install']
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST) by extension 'ignore'
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST) by extension 'ignore_ament_install'
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST) by extensions ['colcon_pkg']
+[5.600s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST) by extension 'colcon_pkg'
+[5.600s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST) by extensions ['colcon_meta']
+[5.600s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST) by extension 'colcon_meta'
+[5.600s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST) by extensions ['ros']
+[5.600s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST) by extension 'ros'
+[5.600s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST) by extensions ['cmake', 'python']
+[5.600s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST) by extension 'cmake'
+[5.601s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST) by extension 'python'
+[5.601s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST) by extensions ['python_setup_py']
+[5.601s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST) by extension 'python_setup_py'
+[5.601s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/build) by extensions ['ignore', 'ignore_ament_install']
+[5.601s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/build) by extension 'ignore'
+[5.601s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/build) ignored
+[5.602s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/install) by extensions ['ignore', 'ignore_ament_install']
+[5.602s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/install) by extension 'ignore'
+[5.602s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/install) ignored
+[5.602s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/log) by extensions ['ignore', 'ignore_ament_install']
+[5.603s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/log) by extension 'ignore'
+[5.603s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/log) ignored
+[5.603s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src) by extensions ['ignore', 'ignore_ament_install']
+[5.604s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src) by extension 'ignore'
+[5.604s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src) by extension 'ignore_ament_install'
+[5.604s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src) by extensions ['colcon_pkg']
+[5.604s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src) by extension 'colcon_pkg'
+[5.604s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src) by extensions ['colcon_meta']
+[5.604s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src) by extension 'colcon_meta'
+[5.604s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src) by extensions ['ros']
+[5.605s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src) by extension 'ros'
+[5.605s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src) by extensions ['cmake', 'python']
+[5.605s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src) by extension 'cmake'
+[5.605s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src) by extension 'python'
+[5.605s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src) by extensions ['python_setup_py']
+[5.605s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src) by extension 'python_setup_py'
+[5.606s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/planning) by extensions ['ignore', 'ignore_ament_install']
+[5.606s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/planning) by extension 'ignore'
+[5.606s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/planning) by extension 'ignore_ament_install'
+[5.606s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/planning) by extensions ['colcon_pkg']
+[5.606s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/planning) by extension 'colcon_pkg'
+[5.607s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/planning) by extensions ['colcon_meta']
+[5.607s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/planning) by extension 'colcon_meta'
+[5.607s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/planning) by extensions ['ros']
+[5.607s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/planning) by extension 'ros'
+[5.613s] DEBUG:colcon.colcon_core.package_identification:Package 'ROS_TEST/src/planning' with type 'ros.ament_python' and name 'planning'
+[5.614s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/ros_test) by extensions ['ignore', 'ignore_ament_install']
+[5.614s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/ros_test) by extension 'ignore'
+[5.614s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/ros_test) by extension 'ignore_ament_install'
+[5.614s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/ros_test) by extensions ['colcon_pkg']
+[5.614s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/ros_test) by extension 'colcon_pkg'
+[5.614s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/ros_test) by extensions ['colcon_meta']
+[5.615s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/ros_test) by extension 'colcon_meta'
+[5.615s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/ros_test) by extensions ['ros']
+[5.615s] Level 1:colcon.colcon_core.package_identification:_identify(ROS_TEST/src/ros_test) by extension 'ros'
+[5.616s] DEBUG:colcon.colcon_core.package_identification:Package 'ROS_TEST/src/ros_test' with type 'ros.ament_python' and name 'ros_test'
+[5.617s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.617s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.617s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.617s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.618s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.618s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.618s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.618s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.618s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.161s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/aoki/Desktop/ROS_msg/install
+[6.243s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 238 installed packages in /home/aoki/Desktop/autoware/install
+[6.313s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 332 installed packages in /opt/ros/humble
+[6.319s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.738s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_args' from command line to 'None'
+[6.738s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_target' from command line to 'None'
+[6.738s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.738s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_clean_cache' from command line to 'False'
+[6.738s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_clean_first' from command line to 'False'
+[6.738s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'cmake_force_configure' from command line to 'False'
+[6.739s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'ament_cmake_args' from command line to 'None'
+[6.739s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'catkin_cmake_args' from command line to 'None'
+[6.739s] Level 5:colcon.colcon_core.verb:set package 'planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.739s] DEBUG:colcon.colcon_core.verb:Building package 'planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aoki/Desktop/ROS_msg/build/planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aoki/Desktop/ROS_msg/install/planning', 'merge_install': False, 'path': '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/planning', 'symlink_install': False, 'test_result_base': None}
+[6.796s] Level 5:colcon.colcon_core.verb:set package 'ros_test' build argument 'cmake_args' from command line to 'None'
+[6.797s] Level 5:colcon.colcon_core.verb:set package 'ros_test' build argument 'cmake_target' from command line to 'None'
+[6.797s] Level 5:colcon.colcon_core.verb:set package 'ros_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.797s] Level 5:colcon.colcon_core.verb:set package 'ros_test' build argument 'cmake_clean_cache' from command line to 'False'
+[6.797s] Level 5:colcon.colcon_core.verb:set package 'ros_test' build argument 'cmake_clean_first' from command line to 'False'
+[6.797s] Level 5:colcon.colcon_core.verb:set package 'ros_test' build argument 'cmake_force_configure' from command line to 'False'
+[6.797s] Level 5:colcon.colcon_core.verb:set package 'ros_test' build argument 'ament_cmake_args' from command line to 'None'
+[6.797s] Level 5:colcon.colcon_core.verb:set package 'ros_test' build argument 'catkin_cmake_args' from command line to 'None'
+[6.797s] Level 5:colcon.colcon_core.verb:set package 'ros_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.798s] DEBUG:colcon.colcon_core.verb:Building package 'ros_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aoki/Desktop/ROS_msg/build/ros_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aoki/Desktop/ROS_msg/install/ros_test', 'merge_install': False, 'path': '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/ros_test', 'symlink_install': False, 'test_result_base': None}
+[6.862s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.935s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/planning' with build type 'ament_python'
+[6.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('planning', 'ament_prefix_path')
+[7.012s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aoki/Desktop/ROS_msg/install/planning/share/planning/hook/ament_prefix_path.ps1'
+[7.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aoki/Desktop/ROS_msg/install/planning/share/planning/hook/ament_prefix_path.dsv'
+[7.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aoki/Desktop/ROS_msg/install/planning/share/planning/hook/ament_prefix_path.sh'
+[7.113s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.113s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.421s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/ros_test' with build type 'ament_python'
+[7.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_test', 'ament_prefix_path')
+[7.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aoki/Desktop/ROS_msg/install/ros_test/share/ros_test/hook/ament_prefix_path.ps1'
+[7.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aoki/Desktop/ROS_msg/install/ros_test/share/ros_test/hook/ament_prefix_path.dsv'
+[7.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aoki/Desktop/ROS_msg/install/ros_test/share/ros_test/hook/ament_prefix_path.sh'
+[7.611s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.611s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.978s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/planning'
+[9.018s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.018s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.409s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/ros_test'
+[10.473s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.473s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/planning': PYTHONPATH=/home/aoki/Desktop/ROS_msg/build/planning/prefix_override:/home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/planning build --build-base /home/aoki/Desktop/ROS_msg/build/planning/build install --record /home/aoki/Desktop/ROS_msg/build/planning/install.log --single-version-externally-managed
+[12.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/ros_test': PYTHONPATH=/home/aoki/Desktop/ROS_msg/build/ros_test/prefix_override:/home/aoki/Desktop/ROS_msg/install/ros_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros_test build --build-base /home/aoki/Desktop/ROS_msg/build/ros_test/build install --record /home/aoki/Desktop/ROS_msg/build/ros_test/install.log --single-version-externally-managed
+[13.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/planning' returned '0': PYTHONPATH=/home/aoki/Desktop/ROS_msg/build/planning/prefix_override:/home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/planning build --build-base /home/aoki/Desktop/ROS_msg/build/planning/build install --record /home/aoki/Desktop/ROS_msg/build/planning/install.log --single-version-externally-managed
+[14.051s] Level 1:colcon.colcon_core.environment:checking '/home/aoki/Desktop/ROS_msg/install/planning' for CMake module files
+[14.053s] Level 1:colcon.colcon_core.environment:checking '/home/aoki/Desktop/ROS_msg/install/planning' for CMake config files
+[14.055s] Level 1:colcon.colcon_core.environment:checking '/home/aoki/Desktop/ROS_msg/install/planning/lib'
+[14.056s] Level 1:colcon.colcon_core.environment:checking '/home/aoki/Desktop/ROS_msg/install/planning/bin'
+[14.056s] Level 1:colcon.colcon_core.environment:checking '/home/aoki/Desktop/ROS_msg/install/planning/lib/pkgconfig/planning.pc'
+[14.057s] Level 1:colcon.colcon_core.environment:checking '/home/aoki/Desktop/ROS_msg/install/planning/lib/python3.10/site-packages'
+[14.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('planning', 'pythonpath')
+[14.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aoki/Desktop/ROS_msg/install/planning/share/planning/hook/pythonpath.ps1'
+[14.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aoki/Desktop/ROS_msg/install/planning/share/planning/hook/pythonpath.dsv'
+[14.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aoki/Desktop/ROS_msg/install/planning/share/planning/hook/pythonpath.sh'
+[14.169s] Level 1:colcon.colcon_core.environment:checking '/home/aoki/Desktop/ROS_msg/install/planning/bin'
+[14.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(planning)
+[14.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoki/Desktop/ROS_msg/install/planning/share/planning/package.ps1'
+[14.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aoki/Desktop/ROS_msg/install/planning/share/planning/package.dsv'
+[14.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoki/Desktop/ROS_msg/install/planning/share/planning/package.sh'
+[14.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoki/Desktop/ROS_msg/install/planning/share/planning/package.bash'
+[14.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoki/Desktop/ROS_msg/install/planning/share/planning/package.zsh'
+[14.306s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aoki/Desktop/ROS_msg/install/planning/share/colcon-core/packages/planning)
+[14.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aoki/Desktop/ROS_msg/ROS_TEST/src/ros_test' returned '0': PYTHONPATH=/home/aoki/Desktop/ROS_msg/build/ros_test/prefix_override:/home/aoki/Desktop/ROS_msg/install/ros_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros_test build --build-base /home/aoki/Desktop/ROS_msg/build/ros_test/build install --record /home/aoki/Desktop/ROS_msg/build/ros_test/install.log --single-version-externally-managed
+[14.369s] Level 1:colcon.colcon_core.environment:checking '/home/aoki/Desktop/ROS_msg/install/ros_test' for CMake module files
+[14.370s] Level 1:colcon.colcon_core.environment:checking '/home/aoki/Desktop/ROS_msg/install/ros_test' for CMake config files
+[14.371s] Level 1:colcon.colcon_core.environment:checking '/home/aoki/Desktop/ROS_msg/install/ros_test/lib'
+[14.372s] Level 1:colcon.colcon_core.environment:checking '/home/aoki/Desktop/ROS_msg/install/ros_test/bin'
+[14.372s] Level 1:colcon.colcon_core.environment:checking '/home/aoki/Desktop/ROS_msg/install/ros_test/lib/pkgconfig/ros_test.pc'
+[14.372s] Level 1:colcon.colcon_core.environment:checking '/home/aoki/Desktop/ROS_msg/install/ros_test/lib/python3.10/site-packages'
+[14.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_test', 'pythonpath')
+[14.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aoki/Desktop/ROS_msg/install/ros_test/share/ros_test/hook/pythonpath.ps1'
+[14.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aoki/Desktop/ROS_msg/install/ros_test/share/ros_test/hook/pythonpath.dsv'
+[14.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aoki/Desktop/ROS_msg/install/ros_test/share/ros_test/hook/pythonpath.sh'
+[14.473s] Level 1:colcon.colcon_core.environment:checking '/home/aoki/Desktop/ROS_msg/install/ros_test/bin'
+[14.474s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_test)
+[14.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoki/Desktop/ROS_msg/install/ros_test/share/ros_test/package.ps1'
+[14.540s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aoki/Desktop/ROS_msg/install/ros_test/share/ros_test/package.dsv'
+[14.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoki/Desktop/ROS_msg/install/ros_test/share/ros_test/package.sh'
+[14.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoki/Desktop/ROS_msg/install/ros_test/share/ros_test/package.bash'
+[14.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/aoki/Desktop/ROS_msg/install/ros_test/share/ros_test/package.zsh'
+[14.605s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aoki/Desktop/ROS_msg/install/ros_test/share/colcon-core/packages/ros_test)
+[14.620s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.621s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.621s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.621s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.724s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.724s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.724s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.755s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.815s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aoki/Desktop/ROS_msg/install/local_setup.ps1'
+[14.832s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aoki/Desktop/ROS_msg/install/_local_setup_util_ps1.py'
+[14.850s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aoki/Desktop/ROS_msg/install/setup.ps1'
+[14.930s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aoki/Desktop/ROS_msg/install/local_setup.sh'
+[14.944s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aoki/Desktop/ROS_msg/install/_local_setup_util_sh.py'
+[14.957s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aoki/Desktop/ROS_msg/install/setup.sh'
+[15.040s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aoki/Desktop/ROS_msg/install/local_setup.bash'
+[15.054s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aoki/Desktop/ROS_msg/install/setup.bash'
+[15.157s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aoki/Desktop/ROS_msg/install/local_setup.zsh'
+[15.174s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aoki/Desktop/ROS_msg/install/setup.zsh'
