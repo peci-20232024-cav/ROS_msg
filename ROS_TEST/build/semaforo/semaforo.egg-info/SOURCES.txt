@@ -12,6 +12,7 @@ setup.py
 resource/semaforo
 semaforo/__init__.py
 semaforo/publisher_member_function.py
+semaforo/subscriber_member_function.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

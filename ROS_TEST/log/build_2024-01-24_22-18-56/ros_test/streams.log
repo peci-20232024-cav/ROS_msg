@@ -1,0 +1,25 @@
+[1.461s] Invoking command in '/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/src/ros_test': PYTHONPATH=/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/ros_test/prefix_override:/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/install/ros_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_test build --build-base /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/ros_test/build install --record /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/ros_test/install.log --single-version-externally-managed
+[1.689s] running egg_info
+[1.689s] writing ../../build/ros_test/ros_test.egg-info/PKG-INFO
+[1.690s] writing dependency_links to ../../build/ros_test/ros_test.egg-info/dependency_links.txt
+[1.690s] writing entry points to ../../build/ros_test/ros_test.egg-info/entry_points.txt
+[1.690s] writing requirements to ../../build/ros_test/ros_test.egg-info/requires.txt
+[1.690s] writing top-level names to ../../build/ros_test/ros_test.egg-info/top_level.txt
+[1.691s] reading manifest file '../../build/ros_test/ros_test.egg-info/SOURCES.txt'
+[1.691s] adding license file 'LICENSE'
+[1.692s] writing manifest file '../../build/ros_test/ros_test.egg-info/SOURCES.txt'
+[1.692s] running build
+[1.692s] running build_py
+[1.692s] running install
+[1.692s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.693s]   warnings.warn(
+[1.693s] running install_lib
+[1.694s] running install_data
+[1.694s] running install_egg_info
+[1.696s] removing '/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/install/ros_test/lib/python3.10/site-packages/ros_test-0.0.0-py3.10.egg-info' (and everything under it)
+[1.696s] Copying ../../build/ros_test/ros_test.egg-info to /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/install/ros_test/lib/python3.10/site-packages/ros_test-0.0.0-py3.10.egg-info
+[1.696s] running install_scripts
+[1.714s] Installing listener script to /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/install/ros_test/lib/ros_test
+[1.714s] Installing talker script to /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/install/ros_test/lib/ros_test
+[1.714s] writing list of installed files to '/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/ros_test/install.log'
+[1.807s] Invoked command in '/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/src/ros_test' returned '0': PYTHONPATH=/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/ros_test/prefix_override:/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/install/ros_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_test build --build-base /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/ros_test/build install --record /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/ros_test/install.log --single-version-externally-managed
