@@ -32,7 +32,7 @@ class MinimalPublisher(Node):
 
     def timer_callback(self):
 
-        msg = LateralOffset()
+        msg = Trajectory()
         msg.lateral_offset = 0.1 
         self.publisher_.publish(msg)
         self.get_logger().info('Publishing: "%s"' % msg.lateral_offset)
