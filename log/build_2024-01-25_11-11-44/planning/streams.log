@@ -1,0 +1,31 @@
+[2.695s] Invoking command in '/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/src/planning': PYTHONPATH=/home/nap/Desktop/ros_git/ROS_msg/build/planning/prefix_override:/home/nap/Desktop/ros_git/ROS_msg/install/planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/planning build --build-base /home/nap/Desktop/ros_git/ROS_msg/build/planning/build install --record /home/nap/Desktop/ros_git/ROS_msg/build/planning/install.log --single-version-externally-managed
+[3.128s] running egg_info
+[3.129s] writing ../../../build/planning/planning.egg-info/PKG-INFO
+[3.132s] writing dependency_links to ../../../build/planning/planning.egg-info/dependency_links.txt
+[3.132s] writing entry points to ../../../build/planning/planning.egg-info/entry_points.txt
+[3.132s] writing requirements to ../../../build/planning/planning.egg-info/requires.txt
+[3.132s] writing top-level names to ../../../build/planning/planning.egg-info/top_level.txt
+[3.135s] reading manifest file '../../../build/planning/planning.egg-info/SOURCES.txt'
+[3.136s] adding license file 'LICENSE'
+[3.137s] writing manifest file '../../../build/planning/planning.egg-info/SOURCES.txt'
+[3.137s] running build
+[3.137s] running build_py
+[3.137s] copying planning/subscriber_member_function.py -> /home/nap/Desktop/ros_git/ROS_msg/build/planning/build/lib/planning
+[3.137s] copying planning/publisher_member_function.py -> /home/nap/Desktop/ros_git/ROS_msg/build/planning/build/lib/planning
+[3.138s] running install
+[3.138s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.138s]   warnings.warn(
+[3.139s] running install_lib
+[3.140s] copying /home/nap/Desktop/ros_git/ROS_msg/build/planning/build/lib/planning/subscriber_member_function.py -> /home/nap/Desktop/ros_git/ROS_msg/install/planning/lib/python3.10/site-packages/planning
+[3.140s] copying /home/nap/Desktop/ros_git/ROS_msg/build/planning/build/lib/planning/publisher_member_function.py -> /home/nap/Desktop/ros_git/ROS_msg/install/planning/lib/python3.10/site-packages/planning
+[3.141s] byte-compiling /home/nap/Desktop/ros_git/ROS_msg/install/planning/lib/python3.10/site-packages/planning/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[3.142s] byte-compiling /home/nap/Desktop/ros_git/ROS_msg/install/planning/lib/python3.10/site-packages/planning/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[3.143s] running install_data
+[3.144s] running install_egg_info
+[3.147s] removing '/home/nap/Desktop/ros_git/ROS_msg/install/planning/lib/python3.10/site-packages/planning-0.0.0-py3.10.egg-info' (and everything under it)
+[3.148s] Copying ../../../build/planning/planning.egg-info to /home/nap/Desktop/ros_git/ROS_msg/install/planning/lib/python3.10/site-packages/planning-0.0.0-py3.10.egg-info
+[3.149s] running install_scripts
+[3.185s] Installing listener script to /home/nap/Desktop/ros_git/ROS_msg/install/planning/lib/planning
+[3.185s] Installing talker script to /home/nap/Desktop/ros_git/ROS_msg/install/planning/lib/planning
+[3.186s] writing list of installed files to '/home/nap/Desktop/ros_git/ROS_msg/build/planning/install.log'
+[3.373s] Invoked command in '/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/src/planning' returned '0': PYTHONPATH=/home/nap/Desktop/ros_git/ROS_msg/build/planning/prefix_override:/home/nap/Desktop/ros_git/ROS_msg/install/planning/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/planning build --build-base /home/nap/Desktop/ros_git/ROS_msg/build/planning/build install --record /home/nap/Desktop/ros_git/ROS_msg/build/planning/install.log --single-version-externally-managed
