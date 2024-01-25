@@ -17,8 +17,7 @@ from rclpy.node import Node
 from rclpy.qos import QoSProfile, QoSDurabilityPolicy
 
 from std_msgs.msg import String
-from tier4_planning_msgs.msg import LateralOffset
-
+from autoware_auto_planning_msgs.msg import Trajectory
 test_profile = QoSProfile(depth=10, durability=QoSDurabilityPolicy.TRANSIENT_LOCAL)
 
 class MinimalPublisher(Node):
@@ -26,7 +25,7 @@ class MinimalPublisher(Node):
     def __init__(self):
         super().__init__('minimal_publisher')
         
-        self.publisher_ = self.create_publisher(LateralOffset, '/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/input/lateral_offset', test_profile)
+        self.publisher_ = self.create_publisher(Trajectory, '/planning/scenario_planning/lane_driving/trajectory', test_profile)
         timer_period = 0.01  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
