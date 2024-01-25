@@ -1,0 +1,30 @@
+[0.910s] Invoking command in '/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/src/semaforo': PYTHONPATH=/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/semaforo/prefix_override:/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/install/semaforo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/semaforo build --build-base /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/semaforo/build install --record /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/semaforo/install.log --single-version-externally-managed
+[1.062s] running egg_info
+[1.063s] writing ../../build/semaforo/semaforo.egg-info/PKG-INFO
+[1.063s] writing dependency_links to ../../build/semaforo/semaforo.egg-info/dependency_links.txt
+[1.063s] writing entry points to ../../build/semaforo/semaforo.egg-info/entry_points.txt
+[1.063s] writing requirements to ../../build/semaforo/semaforo.egg-info/requires.txt
+[1.063s] writing top-level names to ../../build/semaforo/semaforo.egg-info/top_level.txt
+[1.064s] reading manifest file '../../build/semaforo/semaforo.egg-info/SOURCES.txt'
+[1.064s] adding license file 'LICENSE'
+[1.064s] writing manifest file '../../build/semaforo/semaforo.egg-info/SOURCES.txt'
+[1.064s] running build
+[1.064s] running build_py
+[1.064s] copying semaforo/subscriber_member_function.py -> /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/semaforo/build/lib/semaforo
+[1.064s] copying semaforo/publisher_member_function.py -> /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/semaforo/build/lib/semaforo
+[1.064s] running install
+[1.065s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.065s]   warnings.warn(
+[1.065s] running install_lib
+[1.065s] copying /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/semaforo/build/lib/semaforo/subscriber_member_function.py -> /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/install/semaforo/lib/python3.10/site-packages/semaforo
+[1.065s] copying /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/semaforo/build/lib/semaforo/publisher_member_function.py -> /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/install/semaforo/lib/python3.10/site-packages/semaforo
+[1.066s] byte-compiling /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/install/semaforo/lib/python3.10/site-packages/semaforo/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[1.066s] byte-compiling /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/install/semaforo/lib/python3.10/site-packages/semaforo/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[1.066s] running install_data
+[1.066s] running install_egg_info
+[1.068s] removing '/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/install/semaforo/lib/python3.10/site-packages/semaforo-0.0.0-py3.10.egg-info' (and everything under it)
+[1.068s] Copying ../../build/semaforo/semaforo.egg-info to /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/install/semaforo/lib/python3.10/site-packages/semaforo-0.0.0-py3.10.egg-info
+[1.068s] running install_scripts
+[1.081s] Installing signalarray script to /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/install/semaforo/lib/semaforo
+[1.081s] writing list of installed files to '/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/semaforo/install.log'
+[1.148s] Invoked command in '/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/src/semaforo' returned '0': PYTHONPATH=/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/semaforo/prefix_override:/home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/install/semaforo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/semaforo build --build-base /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/semaforo/build install --record /home/nap/Desktop/ros_git/ROS_msg/ROS_TEST/build/semaforo/install.log --single-version-externally-managed

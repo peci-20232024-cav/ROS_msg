@@ -1,3 +1,3 @@
 [console_scripts]
-
+signals = semaforo.subscriber_member_function:main
 
