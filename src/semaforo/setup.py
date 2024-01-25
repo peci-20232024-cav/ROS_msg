@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'signalsget = semaforo.subscriber_member_function:main',
+            'signalsset = semaforo.publisher_member_function:main'
         ],
     },
 )

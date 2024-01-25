@@ -18,7 +18,7 @@ from rclpy.qos import QoSProfile, QoSDurabilityPolicy
 
 from std_msgs.msg import String
 
-from autoware_auto_perception_msgs.msg import TrafficSignalArray, TrafficSignal
+from autoware_auto_perception_msgs.msg import TrafficSignalArray, TrafficSignal, TrafficLight
 
 # define a new QoS profile
 test_profile = QoSProfile(depth=10, durability=QoSDurabilityPolicy.TRANSIENT_LOCAL)
@@ -34,12 +34,40 @@ class MinimalPublisher(Node):
         self.i = 0
 
     def timer_callback(self):
-        msg = TrafficSignalArray()
-        msg.TrafficSignal[1] = 8
+        #insert code for receiving from camera here
+        #receive dict of elements per signal
+        camera = {1:[[1,16,1,0.9],[3,5,3,0.9],[2,7,2,0.9]],
+                  2:[[1,16,2,0.9],[3,5,1,0.9],[2,8,3,0.9]],
+                  3:[[1,16,3,0.9],[3,5,2,0.9],[2,9,1,0.9]]}
+        signals = []
+        for id in camera.keys():
+            lights = []
+            for elemento in camera[id]:
+                light = TrafficLight()
+                light.color = elemento[0]
+                light.shape = elemento[1]
+                light.status = elemento[2]
+                light.confidence = elemento[3]
+            lights+= [light]
+            signal = set_signal(id,lights)
+            signals.append(signal)
+        msg = set_signal_array(signals)
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg.data)
+        self.get_logger().info('Publishing: "%s"' % msg.signals)
         self.i += 1
 
+#function to return a signal
+def set_signal(id, lights):
+    signal = TrafficSignal()
+    signal.map_primitive_id = id
+    signal.lights = lights
+    return signal
+
+#function to return the signal array
+def set_signal_array(signals):
+    signal_array = TrafficSignalArray()
+    signal_array.signals = signals
+    return signal_array
 
 def main(args=None):
     rclpy.init(args=args)

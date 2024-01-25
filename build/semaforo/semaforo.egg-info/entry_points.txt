@@ -1,3 +1,4 @@
 [console_scripts]
-signals = semaforo.subscriber_member_function:main
+signalsget = semaforo.subscriber_member_function:main
+signalsset = semaforo.publisher_member_function:main
 

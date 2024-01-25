@@ -31,6 +31,7 @@ class MinimalSubscriber(Node):
 
     def listener_callback(self, msg):
         for sinal in msg.signals:
+            #self.get_logger().info('I heard: "%s"' % sinal)
             print("Signal ID: %s \n" % str(sinal.map_primitive_id))
             for luz in sinal.lights:
                 print("Light Color: %s" % str(luz.color))
