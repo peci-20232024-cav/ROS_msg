@@ -376,7 +376,7 @@ Ver mensagens de sinais organizadas:
 /sensing/lidar/left/crop_box_filter_self/crop_box_polygon [geometry_msgs/msg/PolygonStamped]
 /sensing/lidar/left/mirror_cropped/pointcloud_ex [sensor_msgs/msg/PointCloud2]
 /sensing/lidar/left/outlier_filtered/pointcloud [sensor_msgs/msg/PointCloud2]
-/sensing/lidar/left/pointcloud_raw_ex [sensor_msgs/msg/PointCloud2]
+/sensing/lidar/left/pointcloud_raw_ex [sensor_msgs/msg/PointCloud2]service
 /sensing/lidar/left/rectified/pointcloud_ex [sensor_msgs/msg/PointCloud2]
 /sensing/lidar/left/self_cropped/pointcloud_ex [sensor_msgs/msg/PointCloud2]
 /sensing/lidar/right/crop_box_filter_mirror/crop_box_polygon [geometry_msgs/msg/PolygonStamped]

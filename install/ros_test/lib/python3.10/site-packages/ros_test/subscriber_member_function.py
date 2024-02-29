@@ -26,12 +26,12 @@ class MinimalSubscriber(Node):
 
         self.subscription = self.create_subscription(
             AckermannControlCommand,
-            '/control/command/control_cmd',
+            '/control/command/control_cmd_diff',
             self.listener_callback,
             10)
 
     def listener_callback(self, msg):
-        self.get_logger().info('I heard: "%s"' % str(msg.longitudinal.acceleration))
+        self.get_logger().info('I heard: "%s"' % str(msg))
 
 
 def main(args=None):

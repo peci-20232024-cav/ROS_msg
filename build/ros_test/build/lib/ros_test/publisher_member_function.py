@@ -34,11 +34,10 @@ class MinimalPublisher(Node):
         self.i = 0
 
     def timer_callback(self):
-
+        
         msg = AckermannControlCommand()
-        msg.longitudinal.acceleration = -10.0
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg.longitudinal.acceleration)
+        self.get_logger().info('Publishing: "%s"' % msg)
         self.i += 1
 
 
