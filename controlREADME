@@ -1,0 +1,55 @@
+
+Testar nó de controlo:
+
+	/Desktop/node.bash		(compila e inicializa o node)
+	/Desktop/start.bash		(inicia autoware e AWSIM)
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+Controlo de velocidade e viragem:
+	
+	"/control/command/control_cmd autoware_auto_control_msgs/msg/AckermannControlCommand"
+		{longitudinal: {speed:float; acceleration:float; jerk: float};			(velocidade desejada, aceleração pretendida; derivação da aceleração/"solavancos")
+	    	 lateral: {steering_tire_angle: float; steering_tire_rotation_rate: float}}	(ângulo de viragem pretendido em rad, direita em negativo e esquerda em positivo; rad/s de  mudança pretendida)
+	
+	mapeado para "output/control_cmd" em vehicle_cmd_gate.cpp
+	e deste para "/control/command/control_cmd
+	
+
+Módulo externo permite controlos exteriores -> "input/external/control_cmd", "/external/selected/control_cmd"
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+REAMAPEAMENTO AUTOWARE
+	
+	Lançamento do módulo de controlo:
+		/home/nap/Desktop/autoware/src/universe/autoware.universe/launch/tier4_control_launch/launch/control.launch.py
+
+Listening do tópico de controlo interceptado:
+ros2 topic echo /control/command/control_cmd_diff autoware_auto_control_msgs/msg/AckermannControlCommand
+
+Listening do tópico de controlo:
+ros2 topic echo /control/command/control_cmd autoware_auto_control_msgs/msg/AckermannControlCommand
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Tópicos de planning, velocidade máxima (m/s):
+
+/planning/scenario_planning/max_velocity [tier4_planning_msgs/msg/VelocityLimit]
+/planning/scenario_planning/max_velocity_default [tier4_planning_msgs/msg/VelocityLimit]
+
+			builtin_interfaces/Time stamp
+			float32 max_velocity
+
+			bool use_constraints false
+			tier4_planning_msgs/VelocityLimitConstraints constraints
+
+			string sender
+
+/planning/scenario_planning/clear_velocity_limit [tier4_planning_msgs/msg/VelocityLimitClearCommand]
+
+			builtin_interfaces/Time stamp
+			bool command false
+			string sender
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
